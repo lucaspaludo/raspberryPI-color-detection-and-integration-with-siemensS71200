@@ -20,14 +20,11 @@ simultaneamente.
 
 <img width="1920" height="1080" alt="Projeto Integrador II" src="https://github.com/user-attachments/assets/3579f0b0-a0fa-43e9-8952-ef45e0f8e8b5" />
 
-- 🎥 Captura contínua via câmera USB (Raspberry Pi)
-- 🎯 Detecção por **HSV**, **ROI**, limiarização e operações morfológicas
-- 🧠 Estratégias específicas para **preto**, **cromado** e **transparente** com **subtração de fundo**
-- 🧩 Arquitetura documentada com **Modelo C4**
-- 🌐 Integração industrial:
-  - **Modbus/TCP** (porta 502)
-  - **S7** (Snap7) com escrita em **DB** via offset
-  - **MQTT** (publish/subscribe) via broker
+## Fluxo das informações
+<img width="1920" height="1080" alt="Projeto Integrador II (1)" src="https://github.com/user-attachments/assets/0b38e4ee-e1d6-44c1-ac58-cb25cadf515b" />
+
+
+
 
 📄 Documentação completa:
 - [`docs/Relatorio_Final.pdf`](docs/Relatorio_Final.pdf)
