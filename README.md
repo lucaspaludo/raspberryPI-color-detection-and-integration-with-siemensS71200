@@ -11,7 +11,14 @@ aplicação inclui interface gráfica para escolha do protocolo e visualização
 
 ---
 
-## ✨ Visão geral
+## Raspberry
+
+Raspberry Pi se mostrou eficiente no gerenciamento de tarefas em tempo real
+moderado, como a captura de imagens da câmera USB, o processamento do algoritmo de
+identificação de cores e o envio dos dados identificados para múltiplos protocolos
+simultaneamente.
+
+<img width="1920" height="1080" alt="Projeto Integrador II" src="https://github.com/user-attachments/assets/3579f0b0-a0fa-43e9-8952-ef45e0f8e8b5" />
 
 - 🎥 Captura contínua via câmera USB (Raspberry Pi)
 - 🎯 Detecção por **HSV**, **ROI**, limiarização e operações morfológicas
