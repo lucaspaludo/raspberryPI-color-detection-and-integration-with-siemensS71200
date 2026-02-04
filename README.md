@@ -1,6 +1,11 @@
 # Sistema de Identificação Visual e Contagem de Peças (OpenCV + Modbus/TCP + S7 + MQTT)
 
-Sistema embarcado em **Raspberry Pi 3** para **identificação de peças por visão computacional** (vermelho, preto, cromado e transparente) e envio de **contagem + cor** via **MODBUS/TCP**, **S7 (Snap7)** e **MQTT** para integração com **CLP Siemens S7-1200**.
+O projeto apresenta o desenvolvimento de um sistema de visão computacional e
+contagem de peças em uma planta de automação industrial utilizando Raspberry Pi 3, com
+comunicação integrada entre os protocolos MODBUS/TCP, S7 e MQTT e um CLP Siemens
+S7-1200. O sistema foi projetado para reconhecer cores distintas de peças (vermelho, preto,
+prata e transparente) e transmitir as informações por meio de diferentes protocolos de rede. A
+aplicação inclui interface gráfica para escolha do protocolo e visualização em tempo real.
 
 > Projeto desenvolvido no contexto de automação industrial, com interface gráfica em **Tkinter** para seleção de protocolo, calibração e monitoramento em tempo real.
 
