@@ -29,7 +29,7 @@ simultaneamente.
 
 O sistema é dividido em três grandes domínios:
 
-- **OpenCV: detecção de cor e contagem no ROI  
+- **OpenCV**: detecção de cor e contagem no ROI  
 - **Tkinter**: seleção do protocolo, calibração e painel ao vivo  
 - **Comunicação**: comunicação via Modbus/TCP, S7 e MQTT
 
@@ -69,4 +69,9 @@ A interface oferece:
 - Python 3.9+
 - Câmera USB
 - (Opcional) CLP Siemens S7-1200 e/ou Broker MQTT
+
+
+## Funcionamento
+
+
 
