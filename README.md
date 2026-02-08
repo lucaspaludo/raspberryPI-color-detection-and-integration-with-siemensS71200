@@ -1,10 +1,9 @@
 # Sistema de Identificação Visual e Contagem de Peças (OpenCV + Modbus/TCP + S7 + MQTT)
 
 ## 🎬 Demonstração em vídeo
-
 [![YouTube](https://img.shields.io/badge/YouTube-Sistema%20Completo%20%2B%20Elevador%20com%20Garra%20Robótica-red?logo=youtube)](https://youtu.be/bmgo1kV8R9Q?si=3shS3UeAX1KU3tNy)
 
-#### Introdução
+## Introdução
 O projeto apresenta o desenvolvimento de um sistema de visão computacional e
 contagem de peças em uma planta de automação industrial utilizando Raspberry Pi 3, com
 comunicação integrada entre os protocolos MODBUS/TCP, S7 e MQTT e um CLP Siemens
