@@ -71,7 +71,7 @@ A interface oferece:
 - (Opcional) CLP Siemens S7-1200 e/ou Broker MQTT
 
 
-## <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/74518b3b-799f-4b7b-81db-8efc96f80ab6" /> Funcionamento
+## Funcionamento
 - Sistema Completo
 - Sistema Completo + Elevador com Garra Robótica
 
