@@ -72,8 +72,8 @@ A interface oferece:
 
 
 ## Funcionamento
-- Sistema Completo
-- Sistema Completo + Elevador com Garra Robótica
+- Sistema Completo 
+- Sistema Completo + Elevador com Garra Robótica [https://youtu.be/bmgo1kV8R9Q?si=3shS3UeAX1KU3tNy]
 
 
 
