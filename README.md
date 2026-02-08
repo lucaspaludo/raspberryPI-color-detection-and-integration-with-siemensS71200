@@ -71,13 +71,8 @@ A interface oferece:
 - (Opcional) CLP Siemens S7-1200 e/ou Broker MQTT
 
 
-## Funcionamento
-- Sistema Completo 
-- [Sistema Completo + Elevador com Garra Robótica](https://youtu.be/bmgo1kV8R9Q?si=3shS3UeAX1KU3tNy)
-
 ### 🎬 Demonstração em vídeo
-
-[![YouTube](https://img.shields.io/badge/YouTube-Sistema%20Completo-red?logo=youtube)](https://youtu.be/bmgo1kV8R9Q?si=3shS3UeAX1KU3tNy)
+[![YouTube](https://img.shields.io/badge/YouTube-Sistema%20Completo%+%Elevador%com%Garra%Robótica-red?logo=youtube)](https://youtu.be/bmgo1kV8R9Q?si=3shS3UeAX1KU3tNy)
 
 
 
