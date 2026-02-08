@@ -23,24 +23,17 @@ simultaneamente.
 ## Fluxo das informações
 <img width="1920" height="1080" alt="Projeto Integrador II (1)" src="https://github.com/user-attachments/assets/0b38e4ee-e1d6-44c1-ac58-cb25cadf515b" />
 
-
-
-
-📄 Documentação completa:
-- [`docs/Relatorio_Final.pdf`](docs/Relatorio_Final.pdf)
-- [`docs/Apresentacao.pdf`](docs/Apresentacao.pdf)
-
 ---
 
 ## 🧱 Arquitetura (Modelo C4)
 
 O sistema é dividido em três grandes domínios:
 
-- **Vision (OpenCV)**: detecção de cor e contagem no ROI  
-- **UI (Tkinter)**: seleção do protocolo, calibração e painel ao vivo  
-- **Comm**: comunicação via Modbus/TCP, S7 e MQTT
+- **OpenCV: detecção de cor e contagem no ROI  
+- **Tkinter**: seleção do protocolo, calibração e painel ao vivo  
+- **Comunicação**: comunicação via Modbus/TCP, S7 e MQTT
 
-> No relatório, a camada de código é composta por classes como **CameraManager**, **ProcessaImagem**, **Calibracao**, **Interface** e módulos de comunicação (**ModbusTCP**, **S7Client**, **Mqtt**).
+> A camada de código é composta por classes como **CameraManager**, **ProcessaImagem**, **Calibracao**, **Interface** e módulos de comunicação (**ModbusTCP**, **S7Client**, **Mqtt**).
 
 ---
 
@@ -51,26 +44,6 @@ O sistema é dividido em três grandes domínios:
 3. Raspberry identifica a peça, classifica a cor e incrementa contadores  
 4. Dados são disponibilizados para o CLP/consumidores via protocolo selecionado  
 5. CLP acessa a informação (contagem/cor) para lógica de automação
-
----
-
-## 🎨 Detecção de cores (resumo)
-
-### Vermelho
-- Máscara em HSV (faixas de vermelho)
-- Dilatação + contornos + filtro por área e ROI
-
-### Preto
-- Desafio: esteira também é preta  
-- Solução: **subtração de fundo** (absdiff) + limiarização + máscara HSV de preto
-
-### Cromado
-- Desafio: alto brilho/reflexividade  
-- Solução: subtração de fundo + máscara HSV (baixo S e alto V) + limiarização mais sensível
-
-### Transparente
-- Desafio: não tem cor definida, fundo “aparece” através  
-- Solução: subtração de fundo com threshold sensível + morfologia para contorno consistente
 
 ---
 
@@ -87,22 +60,13 @@ A interface oferece:
 > - `assets/images/interface.jpg`
 > - `assets/images/calibracao.jpg`
 
+<img width="1920" height="1080" alt="Projeto Integrador II (2)" src="https://github.com/user-attachments/assets/92c36e5c-fc1a-45ba-9482-3b2ca50dacd0" />
+
 ---
 
-## 🚀 Como executar
-
-### 1) Requisitos
+## Requisitos
 - Raspberry Pi OS
 - Python 3.9+
 - Câmera USB
 - (Opcional) CLP Siemens S7-1200 e/ou Broker MQTT
 
-### 2) Instalação
-```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPO.git
-cd SEU_REPO
-
-python -m venv .venv
-source .venv/bin/activate
-
-pip install -r requirements.txt
