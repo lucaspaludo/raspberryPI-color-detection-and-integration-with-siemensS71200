@@ -61,10 +61,6 @@ A interface oferece:
 - Calibração com janela adicional (sobreposição de referência)
 - Sliders para ajuste de thresholds (preto/cromado/transparente)
 
-> Coloque aqui prints em `assets/images/` e referencie:
-> - `assets/images/interface.jpg`
-> - `assets/images/calibracao.jpg`
-
 <img width="1920" height="1080" alt="Projeto Integrador II (2)" src="https://github.com/user-attachments/assets/92c36e5c-fc1a-45ba-9482-3b2ca50dacd0" />
 
 ---
